@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: ^project.artifactId^
+    version: ^project.version^
+  sleuth:
+    enabled: true
